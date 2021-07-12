@@ -84,7 +84,7 @@ var recursos = [];
 //recursos de portugues
 
 	var recurso11 = {
-		miniatura: "recursos/img/Mobile/Portugues/1/asminhashistorias.jpg", 
+		miniatura: "recursos/img/Mobile/Portugues/1/as_minhas_historias.webp", 
 		nome: "As Minhas Histórias",
 		ano: "1",
 		id: "5"
