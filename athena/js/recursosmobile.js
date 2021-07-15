@@ -92,10 +92,10 @@ var recursos = [];
 	recursos.push(recurso11);
 
 	var recurso12 = {
-		miniatura: "recursos/img/Mobile/Portugues/2/formacaodepalavras.jpg", 
-		nome: "Formação de Palavras",
+		miniatura: "recursos/img/Mobile/Portugues/2/luzdosaber.jpg", 
+		nome: "Luz do Saber - Fundamental",
 		ano: "2",
-		id: "13"
+		id: "15"
 	};
 	recursos.push(recurso12);
 
@@ -116,10 +116,10 @@ var recursos = [];
 	recursos.push(recurso14);
 
 	var recurso15 = {
-		miniatura: "recursos/img/Mobile/Portugues/5/portfun.jpg", 
-		nome: "PortFun - Português Divertido",
+		miniatura: "recursos/img/Mobile/Portugues/5/dicionariodeportugues.jpg", 
+		nome: "Dicionário de Português Dicio - Online e Offline",
 		ano: "5",
-		id: "43"
+		id: "40"
 	};
 	recursos.push(recurso15);
 	
@@ -142,10 +142,10 @@ var recursos = [];
 	recursos.push(recurso17);
 
 	var recurso18 = {
-		miniatura: "recursos/img/Mobile/Portugues/8/jogoortografico.jpg", 
-		nome: "Jogo Ortográfico Educacional",
+		miniatura: "recursos/img/Mobile/Portugues/8/Virgulando.png", 
+		nome: "Virgulando",
 		ano: "8",
-		id: "59"
+		id: "131"
 	};
 	recursos.push(recurso18);
 
