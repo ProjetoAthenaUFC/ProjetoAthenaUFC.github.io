@@ -243,7 +243,7 @@ var wmp = {texto : '<img src="img/icones/wmp.png" title="Windows Media Player" c
 textoCompatibilidade.push(wmp);
 var celulloid = {texto : '<img src="img/icones/celulloid.png" title="Celluloid" class = "classe">', descritor: "celulloid"};
 textoCompatibilidade.push(celulloid);
-var flash = {texto: '<img src="img/icones/flash.png" title="Flash Player" class = "classe">', descritor: "flash"}
+var flash = {texto: '<img src="img/icones/flash.png" title="Flash Player Projector" class = "classe">', descritor: "flash"}
 textoCompatibilidade.push(flash);
 
 //alert(textoRecursos.length);
