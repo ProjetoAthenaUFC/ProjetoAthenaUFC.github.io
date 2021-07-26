@@ -91,10 +91,10 @@
 
 	var recursoA2 = {
 		//mat
-		miniatura: "recursos/img/Mobile/Portugues/2/lelesilabas.jpg", 
-		nome: "LeLe Sílabas",
+		miniatura: "recursos/img/Mobile/Matematica/2/jeformasecontar.jpg", 
+		nome: "Jogos educativos para crianças: Formas e contar",
 		ano: "2",
-		id: "11"
+		id: "74"
 	};
 	recursosAnd.push(recursoA2);
 
@@ -108,10 +108,10 @@
 
 	var recursoA4 = {
 		//mat
-		miniatura: "recursos/img/Mobile/Portugues/4/Diminutivo.png", 
-		nome: "Diminutivo",
+		miniatura: "recursos/img/Mobile/Matematica/4/mathflashcards.jpg", 
+		nome: "Math Flash Cards",
 		ano: "4",
-		id: "47"
+		id: "87"
 	};
 	recursosAnd.push(recursoA4);
 
@@ -125,10 +125,10 @@
 
 	var recursoA6 = {
 		//mat
-		miniatura: "recursos/img/Mobile/Portugues/6/anagrapp.jpg", 
-		nome: "AnagrApp - Jogo de Palavras para a mente da matemática: Jogo educativo e exercícios",
+		miniatura: "recursos/img/Mobile/Matematica/6/mestredamatematica.jpg", 
+		nome: "Mestre da Matemática Jogo Educativo e Exercícios",
 		ano: "6",
-		id: "48"
+		id: "94"
 	};
 	recursosAnd.push(recursoA6);
 
@@ -142,10 +142,10 @@
 
 	var recursoA8 = {
 		//mat
-		miniatura: "recursos/img/Mobile/Portugues/8/mistercrase.jpg", 
-		nome: "Mister Crase",
+		miniatura: "recursos/img/Mobile/Matematica/8/volumeareaconversao.jpg", 
+		nome: "Volume, Área e Conversão",
 		ano: "8",
-		id: "58"
+		id: "107"
 	};
 	recursosAnd.push(recursoA8);
 
