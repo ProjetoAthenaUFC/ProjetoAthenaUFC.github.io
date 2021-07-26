@@ -1,7 +1,7 @@
 var recursos = []; 
 //recursos de matematica
 	var recurso1 = {
-		miniatura: "recursos/img/Mobile/Matematica/1/criancasmatematicaenumeros.jpg", 
+		miniatura: "recursos/img/Mobile/Matematica/2/matematicabasica.webp", 
 		nome: "Crianças Matemática e Números",
 		ano: "1",
 		id: "71"
@@ -25,8 +25,8 @@ var recursos = [];
 	recursos.push(recurso3);
 
 	var recurso4 = {
-		miniatura: "recursos/img/Mobile/Matematica/4/matematicabasica.jpg", 
-		nome: "Matemática básica 1, 2 frações",
+		miniatura: "recursos/img/Mobile/Matematica/4/matematicabasica.png", 
+		nome: "1ª 2ª Série: Jogos de matemática para crianças",
 		ano: "4",
 		id: "86"
 	};
@@ -49,7 +49,7 @@ var recursos = [];
 	recursos.push(recurso6);
 
 		var recurso7 = {
-		miniatura: "recursos/img/Mobile/Matematica/7/desafiomatematico.jpg", 
+		miniatura: "recursos/img/Mobile/Matematica/7/desafiomatematico.webp", 
 		nome: "Desafio Matemático Grátis",
 		ano: "7",
 		id: "103"
