@@ -158,10 +158,10 @@ var recursos = [];
 	recursos.push(recurso19);
 	
 	var recurso20 = {
-		miniatura: "recursos/img/Mobile/Portugues/9/gramaticadebolso.jpg", 
-		nome: "Gramática de bolso",
+		miniatura: "recursos/img/Mobile/Portugues/9/Decoreasconjuncoes.png", 
+		nome: "Decore as Conjunções!",
 		ano: "9",
-		id: "67"
+		id: "137"
 	};
 	recursos.push(recurso20);
 
