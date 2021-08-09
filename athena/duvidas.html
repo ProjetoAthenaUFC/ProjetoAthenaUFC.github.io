@@ -258,8 +258,11 @@
 											<li>Clique com o botão direito no arquivo baixado e selecione a opção
 												“Extrair aqui” para extrair o RED.</li><br>
 											<img src="img/duvidas/a5.png" class="imgTexto"><br><br><br>
-											<li> Abra o RED, utilizando o Adobe Flash Projector ou um navegador com o
-												Flash habilitado.</li><br>
+											<li>Após isso, o recurso estará no formato .swf e poderá ser executado com o auxílio 
+												do programa Adobe Flash Projector. Caso ainda não possua o programa em seu computador, 
+												<a href="#flashprojector">clique aqui</a> para acessar o rutorial de como baixá-lo para, em seguida, executar 
+												o RED.
+											</li><br>
 											<img src="img/duvidas/a6.png" class="imgTexto"><br>
 										</ol>
 
@@ -281,7 +284,7 @@
 							<div id="flashprojector" class="panel panel-default boxie">
 								<!--abre a caixa-->
 								<div class="panel-heading">
-									<h4 class="panel-title titulo4A"> <a class="dropdown-toggle collapseColorA"
+									<h4 class="panel-title titulo4A"> <a id="flash" class="dropdown-toggle collapseColorA"
 											data-toggle="collapse" data-parent="#accordion" href="#collapse4"
 											>O ATHENA PRECISA DE ALGUM PROGRAMA
 											ESPECÍFICO PARA A EXECUÇÃO DOS RED PARA COMPUTADOR? </a>
@@ -448,11 +451,15 @@
 	<script src="js/sweetalert2.all.min.js"></script>
 	<script src="js/nav.js"></script>
 	<script>
-		var hash = window.location.hash;
-		var anchor = $('a[href$="' + hash + '"]');
-		if (anchor.length > 0) {
-			anchor.click();
-		}
+		$('li a[href^="#"]').on('click', function (e) {
+			e.preventDefault();
+			var id = $(this).attr('href'),
+				targetOffset = $(id).offset().top;
+
+			$('html, body').animate({
+				scrollTop: targetOffset - 100
+			}, 500);
+		});
 	</script>
 </body>
 
