@@ -102,9 +102,9 @@
 							<div class="panel panel-default boxie">
 								<!--abre a caixa-->
 								<div class="panel-heading">
-									<h4 class="panel-title titulo4V" >
-										<a id="referenciaSAEB" class="dropdown-toggle collapseColorV" data-toggle="collapse"
-											data-parent="#accordion" href="#collapse1" onclick="window.location = '#extrair';">
+									<h4 class="panel-title titulo4V">
+										<a id="referenciaSAEB" class="dropdown-toggle collapseColorV"
+											data-toggle="collapse" data-parent="#accordion" href="#collapse1">
 											Matriz de referência do Sistema de Avaliação da Educação Básica (SAEB) </a>
 									</h4>
 								</div>
@@ -284,10 +284,25 @@
 	<script src="js/sweetalert2.all.min.js"></script>
 	<script src="js/nav.js"></script>
 	<script>
-		var hash = window.location.hash;
-		var anchor = $('a[href$="' + hash + '"]');
-		if (anchor.length > 0) {
-			anchor.click();
+		$(document).ready(function () {
+			var url_string = window.location.href
+			var url = new URL(url_string);
+			var id = url.searchParams.get("id");
+			if(id!=null){
+				clicarDepoisDe(1, id);
+			}
+			
+		});
+
+		function delay(n) {
+			return new Promise(function (resolve) {
+				setTimeout(resolve, n * 1000);
+			});
+		}
+
+		async function clicarDepoisDe(s, id) {
+			await delay(s);
+			document.getElementById(id).click();
 		}
 	</script>
 </body>
