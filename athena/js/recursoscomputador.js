@@ -132,10 +132,10 @@ var recursos = [];
 	recursos.push(recurso16);
 
 	var recurso17 = {
-		miniatura: "recursos/img/Desktop/Portugues/7/publicitario.png", 
-		nome: "O Gênero publicitário",
+		miniatura: "recursos/img/Desktop/Portugues/7/viagemaocerebro.png", 
+		nome: "Viagem ao cérebro - Relações de sentido",
 		ano: "7",
-		id: "95"
+		id: "98"
 	};
 	recursos.push(recurso17);
 
@@ -148,18 +148,18 @@ var recursos = [];
 	recursos.push(recurso18);
 
 	var recurso19 = {
-		miniatura: "recursos/img/Desktop/Portugues/8/acidadecomotexto.png", 
-		nome: "A cidade como texto",
+		miniatura: "recursos/img/Desktop/Portugues/8/aslinguasemprestam.png", 
+		nome: "As línguas emprestam",
 		ano: "8",
-		id: "128"
+		id: "111"
 	};
 	recursos.push(recurso19);
 
 		var recurso20 = {
-		miniatura: "recursos/img/Desktop/Portugues/9/viagemaocerebrovariedadesestilisticas.png", 
-		nome: "Viagem ao Cérebro - Variedades estilísticas",
+		miniatura: "recursos/img/Desktop/Portugues/9/cafecomlinguaportuguesapalavrasestrangeiras.png", 
+		nome: "Café com Língua Portuguesa - Palavras estrangeiras",
 		ano: "9",
-		id: "144"
+		id: "146"
 	};
 	recursos.push(recurso20);
 
