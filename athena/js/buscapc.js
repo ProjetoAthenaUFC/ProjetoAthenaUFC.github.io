@@ -38,19 +38,13 @@ else{
 }
 
 $(document).ready(function() {
-    $.ajax({
-        type: "GET",
-        url: "data/recursos_pc.tsv",
-        dataType: "text",
-        success: function(data) {processData(data);}
-    });
+    processData(recursos_pc);
 });
 
 function processData(textoParam){
-	var linhas = textoParam.split('\n');
-	for (var i=1; i < linhas.length; i++){
-	    var aux = linhas[i].split('\t');
-	    aux = {identidade:String(aux[0]), nome:String(aux[1]), miniatura:String(aux[2]), tipo:String(aux[3]), resumo:String(aux[4]), disciplina:String(aux[5]), ano:String(aux[6]), descritores:String(aux[7]), linkdown:String(aux[8]), visualizar:String(aux[9]), tema:String(aux[10]), origem:String(aux[11]), autores:String(aux[12]), idioma:String(aux[13]), datacriacao:String(aux[14])};
+	var linhas = textoParam
+	for (var i=0; i < linhas.length; i++){
+	    var aux = linhas[i]
 	    if(String(disciplinaDesejada) != "null" && String(disciplinaDesejada) != String(aux.disciplina)){
 	    	continue;
 	    }
@@ -119,5 +113,5 @@ function processData(textoParam){
 
 
 function irPararecurso(n) {
-	location.href="../athena/recursocomputador.html?n=" + recursos[n+pagina*8].identidade;
+	location.href="../athena/recursocomputador.html?n=" + recursos[n+pagina*8].identificador;
 }

@@ -1,7 +1,7 @@
 var recursos = []; 
 //recursos de matematica
 	var recurso1 = {
-		miniatura: "recursos/img/Mobile/Matematica/2/matematicabasica.webp", 
+		miniatura: "recursos/img/Mobile/Matematica/1/criancasmatematicaenumeros.jpg", 
 		nome: "Crianças Matemática e Números",
 		ano: "1",
 		id: "71"
@@ -25,8 +25,8 @@ var recursos = [];
 	recursos.push(recurso3);
 
 	var recurso4 = {
-		miniatura: "recursos/img/Mobile/Matematica/4/matematicabasica.png", 
-		nome: "1ª 2ª Série: Jogos de matemática para crianças",
+		miniatura: "recursos/img/Mobile/Matematica/4/matematicabasica.jpg", 
+		nome: "Matemática básica 1, 2 frações",
 		ano: "4",
 		id: "86"
 	};
@@ -49,7 +49,7 @@ var recursos = [];
 	recursos.push(recurso6);
 
 		var recurso7 = {
-		miniatura: "recursos/img/Mobile/Matematica/7/desafiomatematico.webp", 
+		miniatura: "recursos/img/Mobile/Matematica/7/desafiomatematico.jpg", 
 		nome: "Desafio Matemático Grátis",
 		ano: "7",
 		id: "103"
@@ -84,7 +84,7 @@ var recursos = [];
 //recursos de portugues
 
 	var recurso11 = {
-		miniatura: "recursos/img/Mobile/Portugues/1/as_minhas_historias.webp", 
+		miniatura: "recursos/img/Mobile/Portugues/1/asminhashistorias.jpg", 
 		nome: "As Minhas Histórias",
 		ano: "1",
 		id: "5"
@@ -92,10 +92,10 @@ var recursos = [];
 	recursos.push(recurso11);
 
 	var recurso12 = {
-		miniatura: "recursos/img/Mobile/Portugues/2/luzdosaber.jpg", 
-		nome: "Luz do Saber - Fundamental",
+		miniatura: "recursos/img/Mobile/Portugues/2/formacaodepalavras.jpg", 
+		nome: "Formação de Palavras",
 		ano: "2",
-		id: "15"
+		id: "13"
 	};
 	recursos.push(recurso12);
 
@@ -116,10 +116,10 @@ var recursos = [];
 	recursos.push(recurso14);
 
 	var recurso15 = {
-		miniatura: "recursos/img/Mobile/Portugues/5/dicionariodeportugues.jpg", 
-		nome: "Dicionário de Português Dicio - Online e Offline",
+		miniatura: "recursos/img/Mobile/Portugues/5/portfun.jpg", 
+		nome: "PortFun - Português Divertido",
 		ano: "5",
-		id: "40"
+		id: "43"
 	};
 	recursos.push(recurso15);
 	
@@ -142,10 +142,10 @@ var recursos = [];
 	recursos.push(recurso17);
 
 	var recurso18 = {
-		miniatura: "recursos/img/Mobile/Portugues/8/Virgulando.png", 
-		nome: "Virgulando",
+		miniatura: "recursos/img/Mobile/Portugues/8/jogoortografico.jpg", 
+		nome: "Jogo Ortográfico Educacional",
 		ano: "8",
-		id: "131"
+		id: "59"
 	};
 	recursos.push(recurso18);
 
@@ -158,10 +158,10 @@ var recursos = [];
 	recursos.push(recurso19);
 	
 	var recurso20 = {
-		miniatura: "recursos/img/Mobile/Portugues/9/Decoreasconjuncoes.png", 
-		nome: "Decore as Conjunções!",
+		miniatura: "recursos/img/Mobile/Portugues/9/gramaticadebolso.jpg", 
+		nome: "Gramática de bolso",
 		ano: "9",
-		id: "137"
+		id: "67"
 	};
 	recursos.push(recurso20);
 

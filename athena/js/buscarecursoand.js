@@ -224,20 +224,14 @@ if(String(identidade)==""){
 }
 
 $(document).ready(function() {
-    $.ajax({
-        type: "GET",
-        url: "data/recursos_mobile.tsv",
-        dataType: "text",
-        success: function(data) {processData(data);}
-     });
+    processData(recursos_mobile);
 });
 
 function processData(textoParam){
-	var linhas = textoParam.split('\n');
-	for (var i=1; i < linhas.length; i++){
-	    var aux = linhas[i].split('\t');
-        aux = {identidade:String(aux[0]), nome:String(aux[1]), miniatura:String(aux[2]), link:String(aux[3]), resumo:String(aux[4]), tema:String(aux[5]), descritores:String(aux[6]), tipo:String(aux[7]), idioma:String(aux[8]), autor:String(aux[9]), permissoes:String(aux[10]), tamanho:String(aux[11]), versaoand:String(aux[12]), versaoapp:String(aux[13]), revisao:String(aux[14]), ano:String(aux[15]), disciplina:String(aux[16])};
-	    if(String(identidade)!="null" && String(aux.identidade)!=String(identidade)){
+	var linhas = textoParam;
+	for (var i=0; i < linhas.length; i++){
+	    var aux = linhas[i];
+	    if(String(identidade)!="null" && String(aux.item)!=String(identidade)){
 	    	continue;
 	    }
 	    recursos.push(aux);
@@ -246,8 +240,8 @@ function processData(textoParam){
         window.document.title = "Recurso: " + recursos[0].nome;
         document.getElementById("linkRecurso").href = recursos[0].link;
 		document.getElementById("tituloRecurso").innerHTML = recursos[0].nome;
-		document.getElementById("imagemRecurso").src = recursos[0].miniatura;
-		document.getElementById("textoRecurso").innerHTML = recursos[0].resumo;
+		document.getElementById("imagemRecurso").src = recursos[0].imagem;
+		document.getElementById("textoRecurso").innerHTML = recursos[0].descricao;
 
 		var thread_descritor = recursos[0].descritores.split(',');
 		var tituloDescritoresI = '';
@@ -319,7 +313,7 @@ function processData(textoParam){
         }
 
 		
-		document.getElementById("metadadosRecurso").innerHTML = '<b> Tipo de recurso: </b>' + recursos[0].tipo + '<br> <b> Tema: </b>' + recursos[0].tema + '<br> <b> Idioma: </b>' + recursos[0].idioma + '<br><b> Autoria: </b>' + recursos[0].autor +  '<br> <b> Permissões de uso: </b>' + recursos[0].permissoes + '<br> <b> Tamanho: </b>' + recursos[0].tamanho + '<br> <b> Versão do android: </b>' + recursos[0].versaoand + '<br> <b> Versão do aplicativo: </b>' + recursos[0].versaoapp + '<br> <b> Data da última revisão:</b>' + recursos[0].revisao;
+		document.getElementById("metadadosRecurso").innerHTML = '<b> Tipo de recurso: </b>' + recursos[0].tipo + '<br> <b> Tema: </b>' + recursos[0].tema + '<br> <b> Idioma: </b>' + recursos[0].idioma + '<br><b> Autoria: </b>' + recursos[0].autores +  '<br> <b> Permissões de uso: </b>' + recursos[0].permissoes + '<br> <b> Tamanho: </b>' + recursos[0].tamanho + '<br> <b> Versão do android: </b>' + recursos[0].versaoand + '<br> <b> Versão do aplicativo: </b>' + recursos[0].versao + '<br> <b> Data da última revisão:</b>' + recursos[0].data;
 	}
 }
 

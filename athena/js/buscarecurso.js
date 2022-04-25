@@ -243,7 +243,7 @@ var wmp = {texto : '<img src="img/icones/wmp.png" title="Windows Media Player" c
 textoCompatibilidade.push(wmp);
 var celulloid = {texto : '<img src="img/icones/celulloid.png" title="Celluloid" class = "classe">', descritor: "celulloid"};
 textoCompatibilidade.push(celulloid);
-var flash = {texto: '<img src="img/icones/flash.png" title="Flash Player Projector" class = "classe">', descritor: "flash"}
+var flash = {texto: '<img src="img/icones/flash.png" title="Flash Player" class = "classe">', descritor: "flash"}
 textoCompatibilidade.push(flash);
 
 //alert(textoRecursos.length);
@@ -257,24 +257,20 @@ if(String(identidade)==""){
 }
 
 $(document).ready(function() {
-    
-    $.ajax({
-        type: "GET",
-        url: "data/recursos_pc.tsv",
-        dataType: "text",
-        success: function(data) {processData(data);}
-     });
+    console.log(recursos_pc);
+    processData(recursos_pc); 
 });
 
 function processData(textoParam){
-	var linhas = textoParam.split('\n');
+	var linhas = textoParam;
 	for (var i=0; i < linhas.length; i++){
-	    var aux = linhas[i].split('\t');
-	    aux = {identidade:aux[0], nome:aux[1], miniatura:aux[2], tipo:aux[3], resumo:aux[4], disciplina:aux[5], ano:aux[6], descritores:aux[7], os:aux[8], navegadores:aux[9],programas:aux[10], linkdown:aux[11], visualizar:aux[12], tema:aux[13], origem:aux[14], autores:aux[15], idioma:aux[16], datacriacao:aux[17]};
-	    if(String(identidade)!="null" && String(aux.identidade)!=String(identidade)){
+	    var aux = linhas[i]
+	    if(String(identidade)!="null" && String(aux.identificador)!=String(identidade)){
 	    	continue;
         }
         recursos.push(aux);
+
+		recursos.push(aux);
 
 		//alert(recursos.length);
         window.document.title = "Recurso: " + recursos[0].nome;
@@ -284,7 +280,7 @@ function processData(textoParam){
         
         var thread_descritor = recursos[0].descritores.split('; ');
         var dadosCompatibilidade = []
-        var thread_OS = recursos[0].os.split('; ');
+        var thread_OS = recursos[0].OS.split('; ');
         dadosCompatibilidade.push(thread_OS);
         var thread_navegadores = recursos[0].navegadores.split('; ');
         dadosCompatibilidade.push(thread_navegadores);

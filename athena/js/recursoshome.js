@@ -92,7 +92,7 @@
 	var recursoA2 = {
 		//mat
 		miniatura: "recursos/img/Mobile/Matematica/2/jeformasecontar.jpg", 
-		nome: "Jogos educativos para crianças: Formas e contar",
+		nome: "Jogos educativos para crianças: formas e contar",
 		ano: "2",
 		id: "74"
 	};
@@ -126,17 +126,17 @@
 	var recursoA6 = {
 		//mat
 		miniatura: "recursos/img/Mobile/Matematica/6/mestredamatematica.jpg", 
-		nome: "Mestre da Matemática Jogo Educativo e Exercícios",
+		nome: "Mestre da matemática: Jogo educativo e exercícios",
 		ano: "6",
 		id: "94"
 	};
 	recursosAnd.push(recursoA6);
 
 	var recursoA7 = {
-		miniatura: "recursos/img/Mobile/Portugues/7/JogodoDicionario.png", 
-		nome: "Jogo do Dicionário",
+		miniatura: "recursos/img/Mobile/Portugues/7/wordacademy.jpg", 
+		nome: "Word Academy",
 		ano: "7",
-		id: "124"
+		id: "52"
 	};
 	recursosAnd.push(recursoA7);
 
@@ -150,10 +150,10 @@
 	recursosAnd.push(recursoA8);
 
 	var recursoA9 = {
-		miniatura: "recursos/img/Mobile/Portugues/9/Literario.png", 
-		nome: "Literario",
+		miniatura: "recursos/img/Mobile/Portugues/9/gramaticadebolso.jpg", 
+		nome: "Gramática de bolso",
 		ano: "9",
-		id: "139"
+		id: "67"
 	};
 	recursosAnd.push(recursoA9);
 
