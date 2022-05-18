@@ -1,0 +1,204 @@
+<html>
+
+<head>
+	<title>Página Inicial - Athena</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" type="image/gif" href="../img/ico.gif">
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../css/nav.css">
+	<link rel="stylesheet" type="text/css" href="../css/footer.css">
+	<link rel="stylesheet" type="text/css" href="../css/home.css">
+	<link rel="stylesheet" type="text/css" href="../css/novoplano.css">
+	<link rel="stylesheet" type="text/css" href="../css/sweetalert2.min.css">
+</head>
+
+<body>
+	<!--cabecalho-->
+	<header>
+		<nav class="navbar navbar-expand-md navbar-light fixed-top" id="athenanavbar">
+			<a id="logoNav" href="index.html"><img src="../img/athena.png" id="logonav" /></a>
+			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+				aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" id="buttonMobile">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarCollapse">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link nav-linkcor" href="index.html">INÍCIO</a>
+					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">RECURSOS</a>
+						<div class="dropdown-menu">
+							<a class="dropdown-item" href="buscaandroid.html">PARA ANDROID</a>
+							<a class="dropdown-item" href="buscacomputador.html">PARA COMPUTADOR</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="sobre.html">PLANOS DE AULA</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="apoio.html">MATERIAL DE APOIO</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="duvidas.html">DÚVIDAS</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="sobre.html">SOBRE</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<div id="containerContent">
+		<h1 class="titulo">Cadastrar novo plano de aula</h1>
+		<form onsubmit="enviarNovoPlano()">
+			<div class="form-row">
+				<div class="col-md-6">
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="inputEmail4">Autor</label>
+							<input type="text" class="form-control" id="inputEmail4"
+								placeholder="Autor do plano de aula">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="inputPassword4">Título</label>
+							<input type="text" class="form-control" id="inputPassword4"
+								placeholder="Título do plano de aula">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="exampleFormControlTextarea1">Conteúdo</label>
+						<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="exampleFormControlSelect1">Disciplina</label>
+							<select class="form-control" id="exampleFormControlSelect1">
+								<option>Lingua Portuguesa</option>
+								<option>Matemática</option>
+							</select>
+						</div>
+						<div class="form-group col-md-6">
+							<label for="exampleFormControlSelect1">Série</label>
+							<select class="form-control" id="exampleFormControlSelect1">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col">
+							<label for="exampleFormControlSelect1">Recurso</label>
+							<select class="form-control" id="exampleFormControlSelect1">
+								<option>Lingua Portuguesa</option>
+								<option>Matemática</option>
+							</select>
+						</div>
+					</div>
+					<label for="descritores">Descritores</label>
+					<div class=" descritoresform-row">
+						<div class="col">
+							<div class="form-row">
+								<div class="form-check col-md-6">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">
+										Default checkbox
+									</label>
+								</div>
+								<div class="form-check col-md-6">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">
+										Default checkbox
+									</label>
+								</div>
+								<div class="form-check col-md-6">
+									<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">
+										Default checkbox
+									</label>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<button class="btn btn-primary">Enviar plano de aula</button>
+		</form>
+	</div>
+
+	<!--footer-->
+	<footer>
+		<div id="footerContainer">
+			<div class="row" id="row_one">
+				<div class="col-sm-5" id="logosInst">
+					<div class="row">
+						<div class="col-sm-4">
+							<a href="#"><img src="../img/footer/ufc.png" /></a>
+						</div>
+						<div class="col-sm-4">
+							<a href="#"><img src="../img/footer/virtual.png" /></a>
+						</div>
+						<div class="col-sm-4">
+							<a href="#"><img src="../img/footer/proativa.png" /></a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4"></div>
+
+				<div class="col-sm-3" id="logosSocialNetworks">
+					<div class="row">
+						<div class="col-sm-4">
+							<a href="https://www.facebook.com/proativaufc" target="_blank"><img
+									src="../img/footer/fb.png" /></a>
+						</div>
+						<div class="col-sm-4">
+							<a href="https://www.instagram.com/proativa_ufc/" target="_blank"><img
+									src="../img/footer/ig.png" /></a>
+						</div>
+						<div class="col-sm-4">
+							<a href="#"><img src="../img/footer/tt.png" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-9">
+				</div>
+
+				<div class="col-sm-3" id="cccol">
+					<div class="row">
+						<div class="col-sm-6">
+						</div>
+						<div class="col-sm-6">
+							<a href="#"><img src="../img/footer/cc.png" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/bootstrap.js"></script>
+	<script src="../js/sweetalert2.all.min.js"></script>
+	<script src="../js/nav.js"></script>
+	<script src="../js/home.js"></script>
+	<script src="../js/recursoshome.js"></script>
+	<script src="../js/novoPlano.js"></script>
+</body>
+
+</html>
