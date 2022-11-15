@@ -85,16 +85,16 @@
 		miniatura: "recursos/img/Mobile/Portugues/1/brincandocomoalfabeto.jpg", 
 		nome: "Brincando com o alfabeto",
 		ano: "1",
-		id: "10"
+		id: "9"
 	};
 	recursosAnd.push(recursoA1);
 
 	var recursoA2 = {
 		//mat
 		miniatura: "recursos/img/Mobile/Matematica/2/jeformasecontar.jpg", 
-		nome: "Jogos educativos para crianças: formas e contar",
+		nome: "Jogos educativos para crianças",
 		ano: "2",
-		id: "74"
+		id: "62"
 	};
 	recursosAnd.push(recursoA2);
 
@@ -102,7 +102,7 @@
 		miniatura: "recursos/img/Mobile/Portugues/3/oraptodavaca.jpg", 
 		nome: "O Rapto da Vaca Sagrada",
 		ano: "3",
-		id: "22"
+		id: "18"
 	};
 	recursosAnd.push(recursoA3);
 
@@ -111,7 +111,7 @@
 		miniatura: "recursos/img/Mobile/Matematica/4/mathflashcards.jpg", 
 		nome: "Math Flash Cards",
 		ano: "4",
-		id: "87"
+		id: "72"
 	};
 	recursosAnd.push(recursoA4);
 
@@ -119,24 +119,24 @@
 		miniatura: "recursos/img/Mobile/Portugues/5/Acentuando.jpg", 
 		nome: "Acentuando",
 		ano: "5",
-		id: "39"
+		id: "35"
 	};
 	recursosAnd.push(recursoA5);
 
 	var recursoA6 = {
 		//mat
 		miniatura: "recursos/img/Mobile/Matematica/6/mestredamatematica.jpg", 
-		nome: "Mestre da matemática: Jogo educativo e exercícios",
+		nome: "Mestre da Matemática Jogo Educ",
 		ano: "6",
-		id: "94"
+		id: "77"
 	};
 	recursosAnd.push(recursoA6);
 
 	var recursoA7 = {
-		miniatura: "recursos/img/Mobile/Portugues/7/wordacademy.jpg", 
-		nome: "Word Academy",
+		miniatura: "recursos/img/Mobile/Portugues/7/JogodoDicionario.png", 
+		nome: "Jogo do Dicionário - Classic Puzzle Game",
 		ano: "7",
-		id: "52"
+		id: "101"
 	};
 	recursosAnd.push(recursoA7);
 
@@ -145,15 +145,15 @@
 		miniatura: "recursos/img/Mobile/Matematica/8/volumeareaconversao.jpg", 
 		nome: "Volume, Área e Conversão",
 		ano: "8",
-		id: "107"
+		id: "88"
 	};
 	recursosAnd.push(recursoA8);
 
 	var recursoA9 = {
-		miniatura: "recursos/img/Mobile/Portugues/9/gramaticadebolso.jpg", 
-		nome: "Gramática de bolso",
+		miniatura: "recursos/img/Mobile/Portugues/9/Literario.png", 
+		nome: "Literario",
 		ano: "9",
-		id: "67"
+		id: "116"
 	};
 	recursosAnd.push(recursoA9);
 
@@ -162,7 +162,7 @@
 		miniatura: "recursos/img/Mobile/Matematica/9/geogebra.jpg", 
 		nome: "Calculadora Gráfica GeoGebra",
 		ano: "9",
-		id: "111"
+		id: "89"
 	};
 	recursosAnd.push(recursoA10);
 

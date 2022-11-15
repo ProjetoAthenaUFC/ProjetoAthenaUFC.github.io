@@ -1,18 +1,18 @@
 var recursos = []; 
 //recursos de matematica
 	var recurso1 = {
-		miniatura: "recursos/img/Mobile/Matematica/1/criancasmatematicaenumeros.jpg", 
+		miniatura: "recursos/img/Mobile/Matematica/2/matematicabasica.webp", 
 		nome: "Crianças Matemática e Números",
 		ano: "1",
-		id: "71"
+		id: "59"
 	}; 
 	recursos.push(recurso1);
 	 
 	var recurso2 = {
-		miniatura: "recursos/img/Mobile/Matematica/2/reidamatematicajr.jpg", 
-		nome: "Rei da Matemática Jr. Grátis",
+		miniatura: "recursos/img/Mobile/Matematica/2/64.webp", 
+		nome: "Rei da Matemática Jr - Lite",
 		ano: "2",
-		id: "77"
+		id: "64"
 	};
 	recursos.push(recurso2);
 
@@ -20,15 +20,15 @@ var recursos = [];
 		miniatura: "recursos/img/Mobile/Matematica/3/jogospara2.jpg", 
 		nome: "Jogos para 2: Jogo Matemático",
 		ano: "3",
-		id: "83"
+		id: "68"
 	};
 	recursos.push(recurso3);
 
 	var recurso4 = {
-		miniatura: "recursos/img/Mobile/Matematica/4/matematicabasica.jpg", 
-		nome: "Matemática básica 1, 2 frações",
+		miniatura: "recursos/img/Mobile/Matematica/4/matematicabasica.png",
+		nome: "1ª 2ª Série: Jogos de matemática para crianças",
 		ano: "4",
-		id: "86"
+		id: "71"
 	};
 	recursos.push(recurso4);
 
@@ -36,7 +36,7 @@ var recursos = [];
 		miniatura: "recursos/img/Mobile/Matematica/5/fracoesequivalentes.jpg", 
 		nome: "Frações equivalentes",
 		ano: "5",
-		id: "89"
+		id: "73"
 	};
 	recursos.push(recurso5);
 
@@ -44,15 +44,15 @@ var recursos = [];
 		miniatura: "recursos/img/Mobile/Matematica/6/jogosdematematica.jpg", 
 		nome: "Jogos de Matemática",
 		ano: "6",
-		id: "97"
+		id: "79"
 	};
 	recursos.push(recurso6);
 
 		var recurso7 = {
-		miniatura: "recursos/img/Mobile/Matematica/7/desafiomatematico.jpg", 
+		miniatura: "recursos/img/Mobile/Matematica/7/desafiomatematico.webp", 
 		nome: "Desafio Matemático Grátis",
 		ano: "7",
-		id: "103"
+		id: "84"
 	};
 	recursos.push(recurso7);
 
@@ -60,7 +60,7 @@ var recursos = [];
 		miniatura: "recursos/img/Mobile/Matematica/8/areavolumeperimetro.jpg", 
 		nome: "Área, Volumes e Perímetros",
 		ano: "8",
-		id: "106"
+		id: "87"
 	};
 	recursos.push(recurso8);
 
@@ -68,7 +68,7 @@ var recursos = [];
 		miniatura: "recursos/img/Mobile/Matematica/9/mathlab.jpg", 
 		nome: "Calculadora Gráfica Mathlab",
 		ano: "9",
-		id: "112"
+		id: "90"
 	};
 	recursos.push(recurso9);
 
@@ -76,7 +76,7 @@ var recursos = [];
 		miniatura: "recursos/img/Mobile/Matematica/9/geogebra.jpg", 
 		nome: "Calculadora Gráfica GeoGebra",
 		ano: "9",
-		id: "111"
+		id: "89"
 	};
 	recursos.push(recurso10);
 
