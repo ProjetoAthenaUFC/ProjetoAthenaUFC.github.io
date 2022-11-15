@@ -313,7 +313,7 @@ function processData(textoParam){
         }
 
 		
-		document.getElementById("metadadosRecurso").innerHTML = '<b> Tipo de recurso: </b>' + recursos[0].tipo + '<br> <b> Tema: </b>' + recursos[0].tema + '<br> <b> Idioma: </b>' + recursos[0].idioma + '<br><b> Autoria: </b>' + recursos[0].autores +  '<br> <b> Permissões de uso: </b>' + recursos[0].permissoes + '<br> <b> Tamanho: </b>' + recursos[0].tamanho + '<br> <b> Versão do android: </b>' + recursos[0].versaoand + '<br> <b> Versão do aplicativo: </b>' + recursos[0].versao + '<br> <b> Data da última revisão:</b>' + recursos[0].data;
+		document.getElementById("metadadosRecurso").innerHTML = '<b> Tipo de recurso: </b>' + recursos[0].tipo + '<br> <b> Tema: </b>' + recursos[0].tema + '<br> <b> Idioma: </b>' + recursos[0].idioma + '<br><b> Autoria: </b>' + recursos[0].autores +  '<br> <b> Permissões de uso: </b>' + recursos[0].permissoes + '<br> <b> Tamanho: </b>' + recursos[0].tamanho + '<br> <b> Versão do android: </b>' + recursos[0].versao_android + '<br> <b> Versão do aplicativo: </b>' + recursos[0].versao_app + '<br> <b> Data da última revisão:</b>' + recursos[0].revisao;
 	}
 }
 
