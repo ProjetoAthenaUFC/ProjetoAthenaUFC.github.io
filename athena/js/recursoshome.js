@@ -91,7 +91,7 @@
 
 	var recursoA2 = {
 		//mat
-		miniatura: "recursos/img/Mobile/Matematica/2/jeformasecontar.jpg", 
+		miniatura: "recursos/img/Mobile/Matematica/2/62.webp", 
 		nome: "Jogos educativos para crianças",
 		ano: "2",
 		id: "62"
