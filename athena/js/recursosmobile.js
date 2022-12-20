@@ -84,26 +84,26 @@ var recursos = [];
 //recursos de portugues
 
 	var recurso11 = {
-		miniatura: "recursos/img/Mobile/Portugues/1/asminhashistorias.jpg", 
+		miniatura: "recursos/img/Mobile/Portugues/1/as_minhas_historias.webp", 
 		nome: "As Minhas Histórias",
 		ano: "1",
-		id: "5"
+		id: "4"
 	};
 	recursos.push(recurso11);
 
 	var recurso12 = {
-		miniatura: "recursos/img/Mobile/Portugues/2/formacaodepalavras.jpg", 
-		nome: "Formação de Palavras",
+		miniatura: "recursos/img/Mobile/Portugues/2/lelesilabas.jpg", 
+		nome: "LeLe Sílabas",
 		ano: "2",
-		id: "13"
+		id: "10"
 	};
 	recursos.push(recurso12);
 
 	var recurso13 = {
 		miniatura: "recursos/img/Mobile/Portugues/3/qualeapalavra.jpg", 
-		nome: "Qual é a Palavra",
+		nome: "Qual é a Palavra?",
 		ano: "3",
-		id: "24"
+		id: "20"
 	};
 	recursos.push(recurso13);
 
@@ -116,10 +116,10 @@ var recursos = [];
 	recursos.push(recurso14);
 
 	var recurso15 = {
-		miniatura: "recursos/img/Mobile/Portugues/5/portfun.jpg", 
-		nome: "PortFun - Português Divertido",
+		miniatura: "recursos/img/Mobile/Portugues/5/dicionariodeportugues.jpg", 
+		nome: "Dicionário de Português Dicio",
 		ano: "5",
-		id: "43"
+		id: "36"
 	};
 	recursos.push(recurso15);
 	
@@ -127,7 +127,7 @@ var recursos = [];
 		miniatura: "recursos/img/Mobile/Portugues/6/sinonimosoff.jpg", 
 		nome: "Dicionário Sinônimos Offline",
 		ano: "6",
-		id: "45"
+		id: "39"
 	};
 	recursos.push(recurso16);
 
@@ -137,15 +137,15 @@ var recursos = [];
 		miniatura: "recursos/img/Mobile/Portugues/7/Crianceiras.jpg", 
 		nome: "Crianceiras - Poemas de Manoel de Barros",
 		ano: "7",
-		id: "56"
+		id: "48"
 	};
 	recursos.push(recurso17);
 
 	var recurso18 = {
-		miniatura: "recursos/img/Mobile/Portugues/8/jogoortografico.jpg", 
-		nome: "Jogo Ortográfico Educacional",
+		miniatura: "recursos/img/Mobile/Portugues/8/virgulando.png", 
+		nome: "Virgulando",
 		ano: "8",
-		id: "59"
+		id: "103"
 	};
 	recursos.push(recurso18);
 
@@ -153,15 +153,15 @@ var recursos = [];
 		miniatura: "recursos/img/Mobile/Portugues/9/quizdeportugues.jpg", 
 		nome: "Quiz de Português",
 		ano: "9",
-		id: "63"
+		id: "53"
 	};
 	recursos.push(recurso19);
 	
 	var recurso20 = {
-		miniatura: "recursos/img/Mobile/Portugues/9/gramaticadebolso.jpg", 
-		nome: "Gramática de bolso",
+		miniatura: "recursos/img/Mobile/Portugues/9/Decoreasconjuncoes.png", 
+		nome: "Decore as Conjunções!",
 		ano: "9",
-		id: "67"
+		id: "109"
 	};
 	recursos.push(recurso20);
 
