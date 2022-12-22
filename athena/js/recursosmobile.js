@@ -116,7 +116,7 @@ var recursos = [];
 	recursos.push(recurso14);
 
 	var recurso15 = {
-		miniatura: "recursos/img/Mobile/Portugues/5/dicionariodeportugues.jpg", 
+		miniatura: "recursos/img/Mobile/Portugues/5/36.webp", 
 		nome: "Dicionário de Português Dicio",
 		ano: "5",
 		id: "36"

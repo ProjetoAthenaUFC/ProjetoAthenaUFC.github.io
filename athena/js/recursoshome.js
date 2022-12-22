@@ -99,10 +99,10 @@
 	recursosAnd.push(recursoA2);
 
 	var recursoA3 = {
-		miniatura: "recursos/img/Mobile/Portugues/3/oraptodavaca.jpg", 
-		nome: "O Rapto da Vaca Sagrada",
+		miniatura: "recursos/img/Mobile/Portugues/3/omeninoquetinhamedodoescuro.jpg", 
+		nome: "O menino que tinha medo do escuro",
 		ano: "3",
-		id: "18"
+		id: "17"
 	};
 	recursosAnd.push(recursoA3);
 
