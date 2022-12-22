@@ -3206,7 +3206,7 @@ var recursos_mobile = [
     "item": "189",
     "nome": "Isso não é uma gramática",
     "imagem": "recursos\\img\\Mobile\\Portugues\\9\\189.webp",
-    "link": "https://play.google.com/store/apps/details?id=isso.nao.e.uma.gramatica.ling&hl=pt_BR.",
+    "link": "https://play.google.com/store/apps/details?id=isso.nao.e.uma.gramatica.ling&hl=pt_BR",
     "descricao": "O aplicativo “Isso não é uma gramática” é um guia de linguagem informal que aborda os vários tipos de “erros” que a língua falada e escrita são acusadas de cometer. Com isso, o recurso visa a trabalhar a complexidade dos fenômenos linguísticos e comunicacionais.",
     "tema": "Português falado. Linguagem informal.",
     "descritores": "DPII3; DPII13; DPII18; DPII20.",
