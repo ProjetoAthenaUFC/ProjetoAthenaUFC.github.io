@@ -53,6 +53,11 @@ p.texto {
 	text-align: center;
 }
 
+.col-sm-4.alinhamentoImgBtn {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
 .posicionamentoMetadados {
 	text-align: left;
 }

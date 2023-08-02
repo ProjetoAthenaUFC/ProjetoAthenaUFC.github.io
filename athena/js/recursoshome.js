@@ -125,10 +125,10 @@
 
 	var recursoA6 = {
 		//mat
-		miniatura: "recursos/img/Mobile/Matematica/6/mestredamatematica.jpg", 
-		nome: "Mestre da Matemática Jogo Educ",
+		miniatura: "recursos/img/Mobile/Matematica/6/jogosdematematica.jpg", 
+		nome: "Jogos de Matemática",
 		ano: "6",
-		id: "77"
+		id: "78"
 	};
 	recursosAnd.push(recursoA6);
 
@@ -162,8 +162,9 @@
 		miniatura: "recursos/img/Mobile/Matematica/9/geogebra.jpg", 
 		nome: "Calculadora Gráfica GeoGebra",
 		ano: "9",
-		id: "89"
+		id: "85"
 	};
+
 	recursosAnd.push(recursoA10);
 
 		document.getElementById('recurso1').children[0].src = recursos[0].miniatura;

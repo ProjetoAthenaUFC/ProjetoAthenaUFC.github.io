@@ -1,13 +1,13 @@
 var recursos = []; 
 //recursos de matematica
-	var recurso1 = {
-		miniatura: "recursos/img/Mobile/Matematica/2/matematicabasica.webp", 
-		nome: "Crianças Matemática e Números",
+	var recurso1 = { //-> TROCAR RECURSO
+		miniatura: "recursos/img/Mobile/Matematica/1/Math-Eaprende_as_tabuadas.png",
+		nome: "Math-E aprende as tabuadas",
 		ano: "1",
-		id: "59"
+		id: "123"
 	}; 
-	recursos.push(recurso1);
-	 
+	recursos.push(recurso1); 
+
 	var recurso2 = {
 		miniatura: "recursos/img/Mobile/Matematica/2/64.webp", 
 		nome: "Rei da Matemática Jr - Lite",
@@ -33,10 +33,10 @@ var recursos = [];
 	recursos.push(recurso4);
 
 	var recurso5 = {
-		miniatura: "recursos/img/Mobile/Matematica/5/fracoesequivalentes.jpg", 
-		nome: "Frações equivalentes",
+		miniatura: "recursos/img/Mobile/Matematica/5/enigmamatematico.jpg", 
+		nome: "Enigma matemático com varas",
 		ano: "5",
-		id: "73"
+		id: "76"
 	};
 	recursos.push(recurso5);
 
@@ -49,10 +49,10 @@ var recursos = [];
 	recursos.push(recurso6);
 
 		var recurso7 = {
-		miniatura: "recursos/img/Mobile/Matematica/7/desafiomatematico.webp", 
-		nome: "Desafio Matemático Grátis",
+		miniatura: "recursos/img/Mobile/Matematica/7/testangulos.jpg", 
+		nome: "Test Angulos",
 		ano: "7",
-		id: "84"
+		id: "79"
 	};
 	recursos.push(recurso7);
 
@@ -76,7 +76,7 @@ var recursos = [];
 		miniatura: "recursos/img/Mobile/Matematica/9/geogebra.jpg", 
 		nome: "Calculadora Gráfica GeoGebra",
 		ano: "9",
-		id: "89"
+		id: "85"
 	};
 	recursos.push(recurso10);
 
@@ -84,10 +84,10 @@ var recursos = [];
 //recursos de portugues
 
 	var recurso11 = {
-		miniatura: "recursos/img/Mobile/Portugues/1/as_minhas_historias.webp", 
-		nome: "As Minhas Histórias",
+		miniatura:"recursos/img/Mobile/Portugues/1/historiasinfantisparaler.jpg", 
+		nome:  "Histórias Infantis para Ler",
 		ano: "1",
-		id: "4"
+		id: "2"
 	};
 	recursos.push(recurso11);
 
