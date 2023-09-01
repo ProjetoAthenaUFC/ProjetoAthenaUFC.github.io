@@ -145,7 +145,7 @@
 		miniatura: "recursos/img/Mobile/Matematica/8/volumeareaconversao.jpg", 
 		nome: "Volume, Área e Conversão",
 		ano: "8",
-		id: "88"
+		id: "84"
 	};
 	recursosAnd.push(recursoA8);
 

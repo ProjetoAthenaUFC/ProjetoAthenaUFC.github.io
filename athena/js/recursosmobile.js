@@ -41,10 +41,10 @@ var recursos = [];
 	recursos.push(recurso5);
 
 	var recurso6 = {
-		miniatura: "recursos/img/Mobile/Matematica/6/jogosdematematica.jpg", 
-		nome: "Jogos de Matemática",
+		miniatura: "recursos\\img\\Mobile\\Matematica\\6\\jogo_4_operacoes.webp", 
+		nome: "Jogo de matemática, aprender",
 		ano: "6",
-		id: "79"
+		id: "171"
 	};
 	recursos.push(recurso6);
 
@@ -60,15 +60,15 @@ var recursos = [];
 		miniatura: "recursos/img/Mobile/Matematica/8/areavolumeperimetro.jpg", 
 		nome: "Área, Volumes e Perímetros",
 		ano: "8",
-		id: "87"
+		id: "83"
 	};
 	recursos.push(recurso8);
 
 	var recurso9 = {
-		miniatura: "recursos/img/Mobile/Matematica/9/mathlab.jpg", 
-		nome: "Calculadora Gráfica Mathlab",
+		miniatura: "recursos\\img\\Mobile\\Matematica\\9\\Jogo_das_Equacoes.png", 
+		nome: "Jogo das Equações",
 		ano: "9",
-		id: "90"
+		id: "164"
 	};
 	recursos.push(recurso9);
 
