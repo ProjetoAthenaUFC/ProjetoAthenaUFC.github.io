@@ -1725,7 +1725,7 @@ var recursos_mobile = [
       "link": "https://play.google.com/store/apps/details?id=com.brincalc&hl=pt-BR",
       "descricao": "O aplicativo \"BRINCALC - Matemática para o Ensino Fundamental 1\" apresenta atividades que envolvem geometria plana, cálculos e problemas com as operações matemáticas de adição, subtração, multiplicação e divisão, como também dados estatísticos por meio de tabelas, gráficos, grandezas e medidas. O recurso foi pensado para atender do 2º ao 5º ano do Ensino Fundamental, com atividades correspondentes a cada ano. Entretanto, para o 2º ano, o aplicativo trabalha com formas geométricas e suas planificações, cálculos e problemas de adição, subtração e multiplicação, noções de tempo e leitura de informações em gráficos e tabelas.",
       "tema": "Adição. Subtração. Multiplicação. Noções de Tempo. Figuras geométricas planas. Interpretação de gráficos e tabelas.",
-      "descritores": "DMI01,DMI02,DMI8,DMI17,DMI18,DMI19,DMI20",
+      "descritores": "DMI01,DMI02,DMI08,DMI17,DMI18,DMI19,DMI20",
       "tipo": "Exercício e prática.",
       "idioma": "Português.",
       "autores": "Brincalc.",
